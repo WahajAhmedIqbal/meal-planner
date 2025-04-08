@@ -79,7 +79,8 @@ const App = () => {
   return (
     <div className='font-poppins'>
       <Hero title={data.title} desc={data.desc} />
-      <div className="content-container min-h-full bg-[url(./gradient-bg.png)] pb-10">
+      <div className="content-container min-h-full pb-10">
+        <img className='absolute -z-[1] w-full h-full top-0 left-0' src="./gradient-bg.png" alt="" />
         <div className="container mx-auto px-4">
           <h2 className='py-9 text-2xl font-semibold'>Week Orders</h2>
         </div>
